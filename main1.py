@@ -8,7 +8,7 @@ from web3 import Web3
 
 def VRFv2Consumer():
     # 链接全节点
-    web3 = Web3(Web3.HTTPProvider('https://sepolia.infura.io/v3/47af0aba2b874825bc193dee5c5c2d50'))
+    web3 = Web3(Web3.HTTPProvider('https://sepolia.infura.io/v3/{yourId}'))
 
     # 获取智能合约和ABI地址
     contract_address = "0x4721891B98781edb6903F7c67d2B0b7B9f7E9147"
